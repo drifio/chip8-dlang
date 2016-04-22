@@ -1,0 +1,5 @@
+name "chip8-dlang"
+description "A minimal D application."
+copyright "Copyright © 2016, drif"
+authors "drif"
+dependency "derelict-sdl2" version="2.0.0"
