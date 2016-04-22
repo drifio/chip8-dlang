@@ -24,6 +24,8 @@ final class Chip8
 
 	private Stack stack; //The stack is an array of 16 16-bit values
 
+	public bool exit = false;
+
 	//Constructor
 	this()
 	{
@@ -33,6 +35,49 @@ final class Chip8
 	~ this()
 	{
 	}
+
+	/*
+	 * function(x)
+	 *	TODO: Comment
+	 */
+	bool Initialise()
+	{
+		return true;
+	}
+
+	/*
+	 * function(x)
+	 *	TODO: Comment
+	 */
+	bool LoadRom(string rom)
+	{
+		return true;
+	}
+
+	/*
+	 * function(x)
+	 *	TODO: Comment
+	 */
+	void DispatchEvents()
+	{
+	}
+
+	/*
+	 * function(x)
+	 *	TODO: Comment
+	 */
+	void Cycle()
+	{
+	}
+
+	/*
+	* function(x)
+	*	TODO: Comment
+	*/
+	void Draw()
+	{
+	}
+
 }
 
 
